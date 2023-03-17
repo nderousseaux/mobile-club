@@ -1,0 +1,28 @@
+.btn {
+	display: flex;
+	align-items: center;
+	border-radius: 100px;
+	padding: 20px 22px;
+	cursor: pointer;
+}
+
+
+
+.btn--special {
+	background-color: rgb(96, 84, 186);
+	span {
+		background-color: white;
+		border-radius: 100%;
+		margin-right: 10px;
+		padding: 2px;
+		svg {
+			width: 18px;
+			height: 18px;
+		}
+	}
+}
+
+.btn--normal {
+	background: linear-gradient(180deg,hsla(0,0%,100%,.35),hsla(0,0%,100%,0)),linear-gradient(265.75deg,#ff006e,#ff006e);
+	font-size: large;
+}
